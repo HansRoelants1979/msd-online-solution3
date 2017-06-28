@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{cdbf9f84-14ed-4753-9c30-20cfbe42d6e9}</formid>
+  <IntroducedVersion>1.0.0.51</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="1900" showImage="false" shownavigationbar="true">
+    <tabs>
+      <tab id="{4e43a366-8cf4-4e31-89ba-a0f9432c99fe}" IsUserDefined="1" verticallayout="true">
+        <labels>
+          <label description="Allgemein" languagecode="1031" />
+          <label description="General" languagecode="1033" />
+          <label description="Général" languagecode="1036" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section id="{b7dbbff7-c1ff-44ba-908b-8d522b043ec7}" IsUserDefined="0" showbar="false" showlabel="false" height="auto">
+                <labels>
+                  <label description="Allgemein" languagecode="1031" />
+                  <label description="General" languagecode="1033" />
+                  <label description="Général" languagecode="1036" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{1076fd0f-c948-4f93-b787-7e9aaa98ab47}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="tc_name" datafieldname="tc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{b6610393-559b-b243-17d3-8765d9927aee}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Group" languagecode="1033" />
+                      </labels>
+                      <control id="tc_group" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_group" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{c95226ec-863a-149d-cac8-b43806994cd9}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Value" languagecode="1033" />
+                      </labels>
+                      <control disabled="false" id="tc_value" datafieldname="tc_value" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{6a8e896c-d874-eda2-09a9-e2c010d30120}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Description" languagecode="1033" />
+                      </labels>
+                      <control disabled="false" id="tc_description" datafieldname="tc_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{156aca91-d91e-804c-07e0-7b06014dadb8}" showlabel="true" locklevel="0" auto="true" rowspan="10">
+                      <labels>
+                        <label description="Long Value" languagecode="1033" />
+                      </labels>
+                      <control disabled="false" id="tc_longvalue" datafieldname="tc_longvalue" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" uniqueid="{47162475-0a12-3ade-952d-cd211090b258}" />
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row height="auto" />
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title Text="Common" LCID="1033" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title Text="Sales" LCID="1033" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title Text="Service" LCID="1033" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title Text="Marketing" LCID="1033" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title Text="Process Sessions" LCID="1033" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Configuration" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

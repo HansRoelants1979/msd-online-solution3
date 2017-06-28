@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>0</isdefault>
+  <returnedtypecode>112</returnedtypecode>
+  <savedqueryid>{ece3919b-f512-e711-8103-3863bb354ff0}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" preview="1" icon="1" select="1" jump="title" object="112">
+      <row id="incidentid" name="result">
+        <cell name="ticketnumber" width="150" />
+        <cell name="customerid" width="150" imageproviderwebresource="$webresource:" imageproviderfunctionname="" />
+        <cell name="a_dbfa5a4915eae61181053863bb340dd8.tc_name" width="100" disableSorting="1" />
+        <cell name="a_03424782c7d54a34bbb5b2df729e0302.tc_language" width="100" disableSorting="1" />
+        <cell name="incidentstagecode" width="100" />
+        <cell name="caseorigincode" width="100" />
+        <cell name="tc_casetypeid" width="100" />
+        <cell name="tc_crresolvebykpiid" width="100" />
+        <cell name="tc_casesladuration" width="100" />
+        <cell name="statecode" width="100" />
+        <cell name="statuscode" width="100" />
+        <cell name="followupby" width="100" />
+        <cell name="tc_latestactivitydate" width="100" />
+        <cell name="createdon" width="100" />
+        <cell name="resolveby" width="100" />
+        <cell name="ownerid" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch distinct="true" mapping="logical" output-format="xml-platform" version="1.0">
+      <entity name="incident">
+        <attribute name="ticketnumber" />
+        <attribute name="customerid" />
+        <attribute name="createdon" />
+        <attribute name="statecode" />
+        <attribute name="tc_casesladuration" />
+        <attribute name="tc_crresolvebykpiid" />
+        <attribute name="tc_latestactivitydate" />
+        <order descending="true" attribute="createdon" />
+        <filter type="and">
+          <condition value="1" attribute="statecode" operator="eq" />
+        </filter>
+        <link-entity name="slakpiinstance" alias="ab" to="tc_crresolvebykpiid" from="slakpiinstanceid">
+          <filter type="and">
+            <condition value="4" attribute="status" operator="eq" />
+          </filter>
+        </link-entity>
+        <link-entity name="incidentresolution" alias="ac" to="incidentid" from="incidentid">
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+          </filter>
+        </link-entity>
+        <link-entity name="sla" alias="ae" to="slaid" from="slaid">
+          <filter type="and">
+            <condition value="{640C8705-F503-E711-810D-1458D041F8E8}" attribute="slaid" operator="eq" uitype="sla" uiname="Tc.Case.Crresolvebykpi" />
+          </filter>
+        </link-entity>
+        <link-entity alias="a_dbfa5a4915eae61181053863bb340dd8" name="tc_booking" from="tc_bookingid" to="tc_bookingid" link-type="outer" visible="false">
+          <attribute name="tc_name" />
+        </link-entity>
+        <link-entity alias="a_03424782c7d54a34bbb5b2df729e0302" name="contact" from="contactid" to="primarycontactid" link-type="outer" visible="false">
+          <attribute name="tc_language" />
+        </link-entity>
+        <attribute name="tc_casetypeid" />
+        <attribute name="statuscode" />
+        <attribute name="resolveby" />
+        <attribute name="ownerid" />
+        <attribute name="caseorigincode" />
+        <attribute name="followupby" />
+        <attribute name="incidentstagecode" />
+        <attribute name="incidentid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0.0.51</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="My Successfully Resolved CR SLA Cases" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Show cases resolved within 7,14 and 28 days depending on the SLA" languagecode="1033" />
+  </Descriptions>
+</savedquery>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{58ef8e27-a26a-4f89-8159-0e82c863772c}</formid>
+  <IntroducedVersion>1.0.0.51</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="400">
+    <tabs>
+      <tab id="{b801ca0c-29ff-49a6-83fd-8d484de4241e}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section id="{61d599fa-caf3-4bcd-a345-0324df27325d}" name="tab_1_column_1_section_1" showlabel="false" IsUserDefined="0" showbar="false" columns="1">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{6c3387b6-7250-3c67-cb7d-794ea015497c}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Case" languagecode="1033" />
+                      </labels>
+                      <control disabled="false" id="tc_caseid" datafieldname="tc_caseid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{edd25d06-4eb3-e3e2-632a-78e0ee4ce1b7}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Compensation 1" languagecode="1033" />
+                      </labels>
+                      <control disabled="false" id="tc_compensation1id" datafieldname="tc_compensation1id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" uniqueid="{02d45c3c-0361-c697-e04d-7e4684beb5d3}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{c30228d4-e105-6266-7e79-9bc06d7aee21}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Compensation 2" languagecode="1033" />
+                      </labels>
+                      <control disabled="false" id="tc_compensation2id" datafieldname="tc_compensation2id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" uniqueid="{7b4e8561-ed92-5dbd-e0b7-d55c4896e1a3}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{5a3cb9ad-2425-3551-2052-99ba0bba58e5}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Compensation 3" languagecode="1033" />
+                      </labels>
+                      <control disabled="false" id="tc_compensation3id" datafieldname="tc_compensation3id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{bca5b4b2-178e-d7a9-aa3e-76d3b8b961b7}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Compensation 4" languagecode="1033" />
+                      </labels>
+                      <control disabled="false" id="tc_compensation4id" datafieldname="tc_compensation4id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="2">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Compensation Lines and Amounts" languagecode="1033" />
+  </LocalizedNames>
+</systemform>
