@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <SiteMap />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings>
+    <general>
+      <fullnameconventioncode>1</fullnameconventioncode>
+      <numberformat>us</numberformat>
+      <negativeformatcode>1</negativeformatcode>
+      <currencysymbol>£</currencysymbol>
+      <currencyformatcode>0</currencyformatcode>
+      <pricingdecimalprecision>2</pricingdecimalprecision>
+      <sharetopreviousowneronassign>False</sharetopreviousowneronassign>
+      <blockedattachments>ade;adp;app;asa;ashx;asmx;asp;bas;bat;cdx;cer;chm;class;cmd;com;config;cpl;crt;csh;dll;exe;fxp;hlp;hta;htr;htw;ida;idc;idq;inf;ins;isp;its;jar;js;jse;ksh;lnk;mad;maf;mag;mam;maq;mar;mas;mat;mau;mav;maw;mda;mdb;mde;mdt;mdw;mdz;msc;msh;msh1;msh1xml;msh2;msh2xml;mshxml;msi;msp;mst;ops;pcd;pif;prf;prg;printer;pst;reg;rem;scf;scr;sct;shb;shs;shtm;shtml;soap;stm;tmp;url;vb;vbe;vbs;vsmacros;vss;vst;vsw;ws;wsc;wsf;wsh;dot;</blockedattachments>
+      <getstartedpanecontentenabled>True</getstartedpanecontentenabled>
+      <ispresenceenabled>True</ispresenceenabled>
+      <isautosaveenabled>True</isautosaveenabled>
+      <globalhelpurl></globalhelpurl>
+      <globalhelpurlenabled>False</globalhelpurlenabled>
+      <globalappendurlparametersenabled>False</globalappendurlparametersenabled>
+    </general>
+    <email>
+      <trackingprefix>#;CRM:;</trackingprefix>
+      <trackingtokenidbase>0</trackingtokenidbase>
+      <trackingtokeniddigits>4</trackingtokeniddigits>
+      <maximumtrackingnumber>999999</maximumtrackingnumber>
+      <ignoreinternalemail>False</ignoreinternalemail>
+      <rendersecureiframeforemail>False</rendersecureiframeforemail>
+      <allowunresolvedpartiesonemailsend>True</allowunresolvedpartiesonemailsend>
+    </email>
+    <autoNumbering>
+      <campaignprefix>CMP</campaignprefix>
+      <contractprefix>CNR</contractprefix>
+      <caseprefix>CA</caseprefix>
+      <kbprefix>KBA</kbprefix>
+      <kaprefix>KA</kaprefix>
+      <categoryprefix>CAT</categoryprefix>
+      <orderprefix>ORD</orderprefix>
+      <invoiceprefix>INV</invoiceprefix>
+      <uniquespecifierlength>4</uniquespecifierlength>
+    </autoNumbering>
+  </OrganizationSettings>
+  <optionsets />
+  <Reports />
+  <ChannelPropertyGroups>
+    <ChannelPropertyGroup>
+      <ChannelPropertyGroupId>{ca4742c4-cf0f-e711-810e-1458d041f8e8}</ChannelPropertyGroupId>
+      <Name>1</Name>
+      <ChannelEntity>tc_surveyresponse</ChannelEntity>
+    </ChannelPropertyGroup>
+  </ChannelPropertyGroups>
+  <MobileOfflineProfiles>
+    <MobileOfflineProfile MobileOfflineProfileId="c7087acd-b0ef-e611-8106-3863bb340dd8" Name="Tc.Ids.Rep">
+      <MobileOfflineProfileItems>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="17d8813b-a8f3-e611-810b-1458d041f8e8" Name="TcIds.Rep.Attachment">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{17D8813B-A8F3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>TcIds.Rep.Attachment</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>ActivityMimeAttachment</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="4f6aa755-a8f3-e611-810b-1458d041f8e8" Name="Tc.Ids.Rep.Note">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{4F6AA755-A8F3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Note</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>Annotation</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="a37fd2e8-acf3-e611-810b-1458d041f8e8" Name="Tc.Ids.Rep.Country">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{A37FD2E8-ACF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Country</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_country</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="a7909e0e-adf3-e611-810b-1458d041f8e8" Name="Tc.Ids.Rep.CaseType">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{A7909E0E-ADF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.CaseType</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_casetype</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="d6c3de02-aff3-e611-810b-1458d041f8e8" Name="Tc.Ids.Rep.Case">
+          <MobileOfflineProfileItemAssociations>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="cff8ec24-bd08-e711-810a-3863bb34fb48" Name="Tc.Ids.Rep.Compensation">
+              <MobileOfflineProfileItemAssociationId>{CFF8EC24-BD08-E711-810A-3863BB34FB48}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{D6C3DE02-AFF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.Compensation</Name>
+              <RelationshipDisplayName>tc_incident_tc_compensation</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="0674dbad-bc08-e711-810a-3863bb34fb48" Name="Tc.Ids.Rep.CompensationLine">
+              <MobileOfflineProfileItemAssociationId>{0674DBAD-BC08-E711-810A-3863BB34FB48}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{D6C3DE02-AFF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.CompensationLine</Name>
+              <RelationshipDisplayName>tc_incident_tc_compensationline</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="97e68c0b-c436-e711-8104-e0071b66a0a1" Name="Tc.IDS.AssistanceRequest">
+              <MobileOfflineProfileItemAssociationId>{97E68C0B-C436-E711-8104-E0071B66A0A1}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{D6C3DE02-AFF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+              <Name>Tc.IDS.AssistanceRequest</Name>
+              <RelationshipDisplayName>incident_tc_assistancerequests</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="4f6ee647-bd08-e711-810a-3863bb34fb48" Name="Tc.Ids.Rep.CaseLine">
+              <MobileOfflineProfileItemAssociationId>{4F6EE647-BD08-E711-810A-3863BB34FB48}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{D6C3DE02-AFF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.CaseLine</Name>
+              <RelationshipDisplayName>tc_incident_tc_caseline</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="677fe3b2-a13b-e711-8117-e0071b66a051" Name="Tc.Ids.Rep.Email">
+              <MobileOfflineProfileItemAssociationId>{677FE3B2-A13B-E711-8117-E0071B66A051}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{D6C3DE02-AFF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.Email</Name>
+              <RelationshipDisplayName>Incident_Emails</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+          </MobileOfflineProfileItemAssociations>
+          <MobileOfflineProfileItemId>{D6C3DE02-AFF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Case</Name>
+          <RecordDistributionCriteria>2</RecordDistributionCriteria>
+          <RecordsOwnedByMe>1</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>Incident</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="91373a53-b702-e711-810d-1458d041f8e8" Name="Tc.Ids.Rep.Brand">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{91373A53-B702-E711-810D-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Brand</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_brand</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="69512b8f-b702-e711-810d-1458d041f8e8" Name="Tc.Ids.Rep.CaseCategory">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{69512B8F-B702-E711-810D-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.CaseCategory</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_casecategory</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="98ca38b3-b702-e711-810d-1458d041f8e8" Name="Tc.Ids.Rep.User">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{98CA38B3-B702-E711-810D-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.User</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>SystemUser</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="e3d18231-b802-e711-810d-1458d041f8e8" Name="Tc.Ids.Rep.Team">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{E3D18231-B802-E711-810D-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Team</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>Team</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="4bc0f90d-a01b-e711-8110-1458d041f8e8" Name="Tc.Ids.AssistanceRequest">
+          <MobileOfflineProfileItemAssociations>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="0a54005f-a01b-e711-8110-1458d041f8e8" Name="Tc.Ids.Case">
+              <MobileOfflineProfileItemAssociationId>{0A54005F-A01B-E711-8110-1458D041F8E8}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{4BC0F90D-A01B-E711-8110-1458D041F8E8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Case</Name>
+              <RelationshipDisplayName>incident_tc_assistancerequests</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+          </MobileOfflineProfileItemAssociations>
+          <MobileOfflineProfileItemId>{4BC0F90D-A01B-E711-8110-1458D041F8E8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.AssistanceRequest</Name>
+          <RecordDistributionCriteria>2</RecordDistributionCriteria>
+          <RecordsOwnedByMe>1</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_assistancerequest</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="630fd909-b1ef-e611-8106-3863bb340dd8" Name="Tc.Ids.Rep.Customer">
+          <MobileOfflineProfileItemAssociations>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="6873368e-b1ef-e611-8106-3863bb340dd8" Name="Tc.Ids.Rep.Customer.CustomerBookingRole">
+              <MobileOfflineProfileItemAssociationId>{6873368E-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{630FD909-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.Customer.CustomerBookingRole</Name>
+              <RelationshipDisplayName>tc_contact_tc_customerbookingrole_Customer</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="ccd27146-adf3-e611-810b-1458d041f8e8" Name="Tc.Ids.Rep.Case">
+              <MobileOfflineProfileItemAssociationId>{CCD27146-ADF3-E611-810B-1458D041F8E8}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{630FD909-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.Case</Name>
+              <RelationshipDisplayName>incident_customer_contacts</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="b8d6acfa-b702-e711-810d-1458d041f8e8" Name="Tc.Ids.Rep.User">
+              <MobileOfflineProfileItemAssociationId>{B8D6ACFA-B702-E711-810D-1458D041F8E8}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{630FD909-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.User</Name>
+              <RelationshipDisplayName>contact_owning_user</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+          </MobileOfflineProfileItemAssociations>
+          <MobileOfflineProfileItemId>{630FD909-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Customer</Name>
+          <RecordDistributionCriteria>2</RecordDistributionCriteria>
+          <RecordsOwnedByMe>1</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>1</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>Contact</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="d88c8961-b1ef-e611-8106-3863bb340dd8" Name="Tc.Ids.Rep.Account">
+          <MobileOfflineProfileItemAssociations>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="a373906c-b1ef-e611-8106-3863bb340dd8" Name="Tc.Ids.Rep.Customer.CustomerBookingRole">
+              <MobileOfflineProfileItemAssociationId>{A373906C-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{D88C8961-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.Customer.CustomerBookingRole</Name>
+              <RelationshipDisplayName>tc_account_tc_customerbookingrole_Customer</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+          </MobileOfflineProfileItemAssociations>
+          <MobileOfflineProfileItemId>{D88C8961-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Account</Name>
+          <RecordDistributionCriteria>2</RecordDistributionCriteria>
+          <RecordsOwnedByMe>1</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>1</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>Account</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="96ac57ba-b1ef-e611-8106-3863bb340dd8" Name="Tc.Ids.Rep.CustomerBookingRole">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{96AC57BA-B1EF-E611-8106-3863BB340DD8}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.CustomerBookingRole</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_customerbookingrole</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="d6e39630-bc08-e711-810a-3863bb34fb48" Name="Tc.Ids.Rep.CompensationLine">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{D6E39630-BC08-E711-810A-3863BB34FB48}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.CompensationLine</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_compensationline</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="7a8ee201-bd08-e711-810a-3863bb34fb48" Name="Tc.Ids.Rep.Compensation">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{7A8EE201-BD08-E711-810A-3863BB34FB48}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Compensation</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_compensation</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="4d51deea-c408-e711-810a-3863bb34fb48" Name="Tc.Ids.Rep.CaseLine">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{4D51DEEA-C408-E711-810A-3863BB34FB48}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.CaseLine</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_caseline</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="f8ea5847-80f4-e611-80ff-3863bb354ff0" Name="Tc.Ids.Rep.Hotel">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{F8EA5847-80F4-E611-80FF-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Hotel</Name>
+          <RecordDistributionCriteria>2</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>1</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_hotel</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="042662f6-6c02-e711-8101-3863bb354ff0" Name="Tc.Ids.Rep.Booking">
+          <MobileOfflineProfileItemAssociations>
+            <MobileOfflineProfileItemAssociation MobileOfflineProfileItemAssociationId="ae9ff41f-6e02-e711-8101-3863bb354ff0" Name="Tc.Ids.Rep.Notes">
+              <MobileOfflineProfileItemAssociationId>{AE9FF41F-6E02-E711-8101-3863BB354FF0}</MobileOfflineProfileItemAssociationId>
+              <MobileOfflineProfileItemId>{042662F6-6C02-E711-8101-3863BB354FF0}</MobileOfflineProfileItemId>
+              <Name>Tc.Ids.Rep.Notes</Name>
+              <RelationshipDisplayName>tc_booking_Annotations</RelationshipDisplayName>
+              <ProfileItemAssociationEntityFilter></ProfileItemAssociationEntityFilter>
+            </MobileOfflineProfileItemAssociation>
+          </MobileOfflineProfileItemAssociations>
+          <MobileOfflineProfileItemId>{042662F6-6C02-E711-8101-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Booking</Name>
+          <RecordDistributionCriteria>2</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>1</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_booking</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="e782a835-6d02-e711-8101-3863bb354ff0" Name="Tc.Ids.Rep.BookingTransfer">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{E782A835-6D02-E711-8101-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.BookingTransfer</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_bookingtransfer</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="f093ca47-6d02-e711-8101-3863bb354ff0" Name="Tc.Ids.Rep.BookingExtraService">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{F093CA47-6D02-E711-8101-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.BookingExtraService</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_bookingextraservice</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="6b87bd53-6d02-e711-8101-3863bb354ff0" Name="Tc.Ids.Rep.BookingTransport">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{6B87BD53-6D02-E711-8101-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.BookingTransport</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_bookingtransport</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="93b2ea79-6d02-e711-8101-3863bb354ff0" Name="Tc.Ids.Rep.BookingAccommodation">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{93B2EA79-6D02-E711-8101-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.BookingAccommodation</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_bookingaccommodation</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="a6c86098-f02b-e711-8106-3863bb354ff0" Name="Tc.Ids.Gateway">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{A6C86098-F02B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Gateway</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_gateway</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="620f3ecd-f02b-e711-8106-3863bb354ff0" Name="Tc.Ids.Region">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{620F3ECD-F02B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Region</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_region</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="d899fce8-f02b-e711-8106-3863bb354ff0" Name="Tc.Ids.Location">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{D899FCE8-F02B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Location</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_location</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="91c1ad5a-f12b-e711-8106-3863bb354ff0" Name="Tc.Ids.LocationOffice">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{91C1AD5A-F12B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.LocationOffice</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_locationoffice</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="9ad4ea8c-f12b-e711-8106-3863bb354ff0" Name="Tc.Ids.HotelPromises">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{9AD4EA8C-F12B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.HotelPromises</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_hotelpromises</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="b4a457b4-f12b-e711-8106-3863bb354ff0" Name="Tc.Ids.AlternativeEmail">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{B4A457B4-F12B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.AlternativeEmail</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_alternativeemail</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="593731ca-f12b-e711-8106-3863bb354ff0" Name="Tc.Ids.CompensationApproval">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{593731CA-F12B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.CompensationApproval</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_compensationapproval</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="3419cb05-f22b-e711-8106-3863bb354ff0" Name="Tc.Ids.CompensationCalculationMatrix">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{3419CB05-F22B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.CompensationCalculationMatrix</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_compensationcalculationmatrix</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="97424a2c-f22b-e711-8106-3863bb354ff0" Name="Tc.Ids.CompensationCalculationLine">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{97424A2C-F22B-E711-8106-3863BB354FF0}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.CompensationCalculationLine</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_compensationcalculationline</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="f808721f-524f-e711-8127-e0071b659e11" Name="Tc.Ids.Rep.Sharer">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{F808721F-524F-E711-8127-E0071B659E11}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Sharer</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_sharer</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="b2300aa5-a13b-e711-8117-e0071b66a051" Name="Tc.Ids.Rep.Configuration">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{B2300AA5-A13B-E711-8117-E0071B66A051}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Configuration</Name>
+          <RecordDistributionCriteria>1</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>tc_configuration</EntitySchemaName>
+        </MobileOfflineProfileItem>
+        <MobileOfflineProfileItem MobileOfflineProfileItemId="b6148bcd-a13b-e711-8117-e0071b66a051" Name="Tc.Ids.Rep.Email">
+          <MobileOfflineProfileItemAssociations />
+          <MobileOfflineProfileItemId>{B6148BCD-A13B-E711-8117-E0071B66A051}</MobileOfflineProfileItemId>
+          <RegardingObjectId>{C7087ACD-B0EF-E611-8106-3863BB340DD8}</RegardingObjectId>
+          <Name>Tc.Ids.Rep.Email</Name>
+          <RecordDistributionCriteria>0</RecordDistributionCriteria>
+          <RecordsOwnedByMe>0</RecordsOwnedByMe>
+          <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+          <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+          <ProfileItemEntityFilter></ProfileItemEntityFilter>
+          <EntitySchemaName>Email</EntitySchemaName>
+        </MobileOfflineProfileItem>
+      </MobileOfflineProfileItems>
+      <MobileOfflineProfileId>{c7087acd-b0ef-e611-8106-3863bb340dd8}</MobileOfflineProfileId>
+      <Name>Tc.Ids.Rep</Name>
+      <Description>The profile for in-destination reps so they can see customer and bookings within their resort(s) and hotel(s).</Description>
+    </MobileOfflineProfile>
+  </MobileOfflineProfiles>
+  <Slas>
+    <Sla SLAId="b13b482d-b20d-e711-810a-3863bb340dd8" Name="Tc.AssistanceRequest.Sla" PrimaryEntityOTC="10070">
+      <SLAId>{b13b482d-b20d-e711-810a-3863bb340dd8}</SLAId>
+      <ApplicableFrom>createdon</ApplicableFrom>
+      <Name>Tc.AssistanceRequest.Sla</Name>
+      <AllowPauseResume>0</AllowPauseResume>
+      <SLAType>1</SLAType>
+      <SlaItems>
+        <SlaItem slaitemid="cf1939ce-b20d-e711-810a-3863bb340dd8" name="Respond By KPI">
+          <slaid>b13b482d-b20d-e711-810a-3863bb340dd8</slaid>
+          <slaitemid>cf1939ce-b20d-e711-810a-3863bb340dd8</slaitemid>
+          <relatedfield>tc_respondbykpiid</relatedfield>
+          <name>Respond By KPI</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="tc_assistancerequest" /&gt;&lt;column id="colAttribute" value="createdon"/&gt;&lt;column id="colOperator" value="not-null"/&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="tc_assistancerequest" /&gt;&lt;column id="colAttribute" value="statuscode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="2&amp;#59;3" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>1</sequencenumber>
+          <workflowid>a1d73372-181d-4396-92ec-4e12f155e5b4</workflowid>
+          <failureafter>2880</failureafter>
+          <warnafter>1440</warnafter>
+        </SlaItem>
+      </SlaItems>
+    </Sla>
+    <Sla SLAId="af5613b0-e6f8-e611-810b-1458d041f8e8" Name="Tc.Case.24HrPromiseSla" PrimaryEntityOTC="112">
+      <SLAId>{af5613b0-e6f8-e611-810b-1458d041f8e8}</SLAId>
+      <ApplicableFrom>tc_slastarttimedate</ApplicableFrom>
+      <Name>Tc.Case.24HrPromiseSla</Name>
+      <Description>The 24 Hour Promise SLA will be enforced on any case where the 24 Hour promise is applicable </Description>
+      <AllowPauseResume>0</AllowPauseResume>
+      <SLAType>1</SLAType>
+      <SlaItems>
+        <SlaItem slaitemid="30f9db4c-6902-e711-8109-3863bb340dd8" name="Tc.Case.SlaItem.24HrPromiseSla">
+          <slaid>af5613b0-e6f8-e611-810b-1458d041f8e8</slaid>
+          <slaitemid>30f9db4c-6902-e711-8109-3863bb340dd8</slaitemid>
+          <relatedfield>tc_24hrpromisekpiresolvebyid</relatedfield>
+          <name>Tc.Case.SlaItem.24HrPromiseSla</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_24hourpromise"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000000" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casetypeid"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="&amp;#60;lookup&amp;#62;&amp;#60;value&amp;#32;uiname&amp;#32;&amp;#61;&amp;#32;&amp;#39;Complaint&amp;#39;&amp;#32;uitype&amp;#32;&amp;#61;&amp;#32;&amp;#39;tc_casetype&amp;#39;&amp;#32;&amp;#62;&amp;#38;&amp;#35;123&amp;#59;478C99E9-93E4-E611-8109-1458D041F8E8&amp;#38;&amp;#35;125&amp;#59;&amp;#60;&amp;#47;value&amp;#62;&amp;#60;&amp;#47;lookup&amp;#62;" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comeback"/&gt;&lt;column id="colOperator" value="ne"/&gt;&lt;column id="colStaticValue" value="1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;or&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statuscode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="5&amp;#59;6" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_24hourpromise"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000002" dataslugs="" /&gt;&lt;/condition&gt;&lt;/or&gt;</successconditionsxml>
+          <sequencenumber>1</sequencenumber>
+          <workflowid>1cf8a4dd-2d68-4f28-84f9-2edbdcb880bf</workflowid>
+          <failureafter>1440</failureafter>
+          <warnafter>1260</warnafter>
+        </SlaItem>
+      </SlaItems>
+    </Sla>
+    <Sla SLAId="640c8705-f503-e711-810d-1458d041f8e8" Name="Tc.Case.CrResolveByKpi" PrimaryEntityOTC="112">
+      <SLAId>{640c8705-f503-e711-810d-1458d041f8e8}</SLAId>
+      <ApplicableFrom>tc_slastarttimedate</ApplicableFrom>
+      <Name>Tc.Case.CrResolveByKpi</Name>
+      <AllowPauseResume>0</AllowPauseResume>
+      <SLAType>1</SLAType>
+      <SlaItems>
+        <SlaItem slaitemid="9a92a943-f503-e711-810d-1458d041f8e8" name="7 Days CR Resolve By KPI">
+          <slaid>640c8705-f503-e711-810d-1458d041f8e8</slaid>
+          <slaitemid>9a92a943-f503-e711-810d-1458d041f8e8</slaitemid>
+          <relatedfield>tc_crresolvebykpiid</relatedfield>
+          <name>7 Days CR Resolve By KPI</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casesladuration"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000100" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="1&amp;#59;2" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>1</sequencenumber>
+          <workflowid>ac50bd00-6284-4c4e-8b82-a3028abeb3f6</workflowid>
+          <failureafter>10080</failureafter>
+          <warnafter>7200</warnafter>
+        </SlaItem>
+        <SlaItem slaitemid="066b867b-f503-e711-810d-1458d041f8e8" name="14 Days CR Resolve By KPI">
+          <slaid>640c8705-f503-e711-810d-1458d041f8e8</slaid>
+          <slaitemid>066b867b-f503-e711-810d-1458d041f8e8</slaitemid>
+          <relatedfield>tc_crresolvebykpiid</relatedfield>
+          <name>14 Days CR Resolve By KPI</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casesladuration"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000200" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="2&amp;#59;1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>2</sequencenumber>
+          <workflowid>31533632-44b8-4ce7-8177-b947acb27127</workflowid>
+          <failureafter>20160</failureafter>
+          <warnafter>17280</warnafter>
+        </SlaItem>
+        <SlaItem slaitemid="1fc21fa9-f503-e711-810d-1458d041f8e8" name="28 Days CR Resolve By KPI">
+          <slaid>640c8705-f503-e711-810d-1458d041f8e8</slaid>
+          <slaitemid>1fc21fa9-f503-e711-810d-1458d041f8e8</slaitemid>
+          <relatedfield>tc_crresolvebykpiid</relatedfield>
+          <name>28 Days CR Resolve By KPI</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casesladuration"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000400" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="2&amp;#59;1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>3</sequencenumber>
+          <workflowid>89a1d87f-ad5c-4cd8-a459-4ca2f0194aec</workflowid>
+          <failureafter>40320</failureafter>
+          <warnafter>28800</warnafter>
+        </SlaItem>
+        <SlaItem slaitemid="667475d9-f503-e711-810d-1458d041f8e8" name="56 Days CR Resolve By KPI">
+          <slaid>640c8705-f503-e711-810d-1458d041f8e8</slaid>
+          <slaitemid>667475d9-f503-e711-810d-1458d041f8e8</slaitemid>
+          <relatedfield>tc_crresolvebykpiid</relatedfield>
+          <name>56 Days CR Resolve By KPI</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casesladuration"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000500" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="2&amp;#59;1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>4</sequencenumber>
+          <workflowid>b6834a0a-83c7-4fbb-94ed-2e04f315ea4c</workflowid>
+          <failureafter>80640</failureafter>
+          <warnafter>77760</warnafter>
+        </SlaItem>
+        <SlaItem slaitemid="f8948703-5518-e711-8110-1458d041f8e8" name="Tc.Case.2DaysCrResolveBySla">
+          <slaid>640c8705-f503-e711-810d-1458d041f8e8</slaid>
+          <slaitemid>f8948703-5518-e711-8110-1458d041f8e8</slaitemid>
+          <relatedfield>tc_crresolvebykpiid</relatedfield>
+          <name>Tc.Case.2DaysCrResolveBySla</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casesladuration"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000000" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="2&amp;#59;1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>5</sequencenumber>
+          <workflowid>e27daef1-d5c8-4e3b-b2e0-76cd65054e48</workflowid>
+          <failureafter>2880</failureafter>
+          <warnafter>1440</warnafter>
+        </SlaItem>
+        <SlaItem slaitemid="03a57543-a947-e711-810b-e0071b66e0a1" name="Comeback 1">
+          <slaid>640c8705-f503-e711-810d-1458d041f8e8</slaid>
+          <slaitemid>03a57543-a947-e711-810b-e0071b66e0a1</slaitemid>
+          <relatedfield>tc_crresolvebykpiid</relatedfield>
+          <name>Comeback 1</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="0" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comebackreopen1"/&gt;&lt;column id="colOperator" value="not-null"/&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comebackreopen2"/&gt;&lt;column id="colOperator" value="null"/&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comeback"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="1" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casesladuration"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000200" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="0&amp;#59;2&amp;#59;1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>6</sequencenumber>
+          <workflowid>85b5b954-5614-4e6b-be16-1a2d82fb5e76</workflowid>
+          <failureafter>20160</failureafter>
+          <warnafter>14400</warnafter>
+        </SlaItem>
+        <SlaItem slaitemid="cbffa489-a947-e711-810b-e0071b66e0a1" name="Comeback 2">
+          <slaid>640c8705-f503-e711-810d-1458d041f8e8</slaid>
+          <slaitemid>cbffa489-a947-e711-810b-e0071b66e0a1</slaitemid>
+          <relatedfield>tc_crresolvebykpiid</relatedfield>
+          <name>Comeback 2</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="0" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comebackreopen1"/&gt;&lt;column id="colOperator" value="not-null"/&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comebackreopen1"/&gt;&lt;column id="colOperator" value="not-null"/&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comeback"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="1" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casesladuration"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000200" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="0&amp;#59;1&amp;#59;2" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>7</sequencenumber>
+          <workflowid>9ab95de7-823c-4b2e-9617-484fabecaa9c</workflowid>
+          <failureafter>20160</failureafter>
+          <warnafter>14400</warnafter>
+        </SlaItem>
+      </SlaItems>
+    </Sla>
+    <Sla SLAId="c912c3b8-6218-e711-8110-1458d041f8e8" Name="Tc.Case.DefaultSla" PrimaryEntityOTC="112">
+      <SLAId>{c912c3b8-6218-e711-8110-1458d041f8e8}</SLAId>
+      <ApplicableFrom>tc_slastarttimedate</ApplicableFrom>
+      <Name>Tc.Case.DefaultSla</Name>
+      <AllowPauseResume>0</AllowPauseResume>
+      <SLAType>1</SLAType>
+      <SlaItems>
+        <SlaItem slaitemid="bfc958b1-3619-e711-810c-3863bb34fb48" name="Tc.Case.SLA3rdPartyNo">
+          <slaid>c912c3b8-6218-e711-8110-1458d041f8e8</slaid>
+          <slaitemid>bfc958b1-3619-e711-810c-3863bb34fb48</slaitemid>
+          <relatedfield>resolvebykpiid</relatedfield>
+          <name>Tc.Case.SLA3rdPartyNo</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_3rdpartyresponserequired"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000001" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casetypeid"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="&amp;#60;lookup&amp;#62;&amp;#60;value&amp;#32;uiname&amp;#32;&amp;#61;&amp;#32;&amp;#39;Complaint&amp;#39;&amp;#32;uitype&amp;#32;&amp;#61;&amp;#32;&amp;#39;tc_casetype&amp;#39;&amp;#32;&amp;#62;&amp;#38;&amp;#35;123&amp;#59;478C99E9-93E4-E611-8109-1458D041F8E8&amp;#38;&amp;#35;125&amp;#59;&amp;#60;&amp;#47;value&amp;#62;&amp;#60;&amp;#47;lookup&amp;#62;" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_originatingbusinessarea"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000002&amp;#59;950000001" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_24hourpromise"/&gt;&lt;column id="colOperator" value="ne"/&gt;&lt;column id="colStaticValue" value="950000000" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comeback"/&gt;&lt;column id="colOperator" value="ne"/&gt;&lt;column id="colStaticValue" value="1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="2&amp;#59;1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>1</sequencenumber>
+          <workflowid>6c0b8350-d7ec-4dec-8a10-3fe54ade741a</workflowid>
+          <failureafter>180</failureafter>
+          <warnafter>120</warnafter>
+        </SlaItem>
+        <SlaItem slaitemid="65ce28e7-3619-e711-810c-3863bb34fb48" name="Tc.Case.SLA3rdPartyYes">
+          <slaid>c912c3b8-6218-e711-8110-1458d041f8e8</slaid>
+          <slaitemid>65ce28e7-3619-e711-810c-3863bb34fb48</slaitemid>
+          <relatedfield>resolvebykpiid</relatedfield>
+          <name>Tc.Case.SLA3rdPartyYes</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_3rdpartyresponserequired"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000000" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casetypeid"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="&amp;#60;lookup&amp;#62;&amp;#60;value&amp;#32;uiname&amp;#32;&amp;#61;&amp;#32;&amp;#39;Complaint&amp;#39;&amp;#32;uitype&amp;#32;&amp;#61;&amp;#32;&amp;#39;tc_casetype&amp;#39;&amp;#32;&amp;#62;&amp;#38;&amp;#35;123&amp;#59;478C99E9-93E4-E611-8109-1458D041F8E8&amp;#38;&amp;#35;125&amp;#59;&amp;#60;&amp;#47;value&amp;#62;&amp;#60;&amp;#47;lookup&amp;#62;" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_originatingbusinessarea"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000002&amp;#59;950000001" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_24hourpromise"/&gt;&lt;column id="colOperator" value="ne"/&gt;&lt;column id="colStaticValue" value="950000000" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comeback"/&gt;&lt;column id="colOperator" value="ne"/&gt;&lt;column id="colStaticValue" value="1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="2&amp;#59;1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>2</sequencenumber>
+          <workflowid>dbe15aa6-98cf-461e-8777-811bf9eee8db</workflowid>
+          <failureafter>720</failureafter>
+          <warnafter>360</warnafter>
+        </SlaItem>
+        <SlaItem slaitemid="7da675fd-642b-e711-810f-3863bb340dd8" name="Tc.Case.CRSLA">
+          <slaid>c912c3b8-6218-e711-8110-1458d041f8e8</slaid>
+          <slaitemid>7da675fd-642b-e711-810f-3863bb340dd8</slaitemid>
+          <relatedfield>resolvebykpiid</relatedfield>
+          <name>Tc.Case.CRSLA</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_originatingbusinessarea"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="950000000" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_casetypeid"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="&amp;#60;lookup&amp;#62;&amp;#60;value&amp;#32;uiname&amp;#32;&amp;#61;&amp;#32;&amp;#39;Complaint&amp;#39;&amp;#32;uitype&amp;#32;&amp;#61;&amp;#32;&amp;#39;tc_casetype&amp;#39;&amp;#32;&amp;#62;&amp;#38;&amp;#35;123&amp;#59;478C99E9-93E4-E611-8109-1458D041F8E8&amp;#38;&amp;#35;125&amp;#59;&amp;#60;&amp;#47;value&amp;#62;&amp;#60;&amp;#47;lookup&amp;#62;" dataslugs="" /&gt;&lt;/condition&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="tc_comeback"/&gt;&lt;column id="colOperator" value="ne"/&gt;&lt;column id="colStaticValue" value="1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="incident" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="2&amp;#59;1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>3</sequencenumber>
+          <workflowid>f78bceef-f028-4eb1-949e-da4acacc4668</workflowid>
+          <failureafter>20160</failureafter>
+          <warnafter>10080</warnafter>
+        </SlaItem>
+      </SlaItems>
+    </Sla>
+    <Sla SLAId="dd43e93b-8e18-e711-8110-1458d041f8e8" Name="Tc.CompensationApprovalSla" PrimaryEntityOTC="10063">
+      <SLAId>{dd43e93b-8e18-e711-8110-1458d041f8e8}</SLAId>
+      <ApplicableFrom>createdon</ApplicableFrom>
+      <Name>Tc.CompensationApprovalSla</Name>
+      <AllowPauseResume>0</AllowPauseResume>
+      <SLAType>1</SLAType>
+      <SlaItems>
+        <SlaItem slaitemid="3d965671-8e18-e711-8110-1458d041f8e8" name="Tc.CompensationApproval.4hrSlaComplete">
+          <slaid>dd43e93b-8e18-e711-8110-1458d041f8e8</slaid>
+          <slaitemid>3d965671-8e18-e711-8110-1458d041f8e8</slaitemid>
+          <relatedfield>tc_compensationapprovalkpi</relatedfield>
+          <name>Tc.CompensationApproval.4hrSlaComplete</name>
+          <description></description>
+          <applicablewhenxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="tc_compensationapproval" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="0" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</applicablewhenxml>
+          <successconditionsxml>&lt;and&gt;&lt;condition&gt;&lt;column id="colEntity" value="tc_compensationapproval" /&gt;&lt;column id="colAttribute" value="statecode"/&gt;&lt;column id="colOperator" value="eq"/&gt;&lt;column id="colStaticValue" value="1" dataslugs="" /&gt;&lt;/condition&gt;&lt;/and&gt;</successconditionsxml>
+          <sequencenumber>1</sequencenumber>
+          <workflowid>25a3b46b-ced5-432b-a798-3bfdecfd682c</workflowid>
+          <failureafter>240</failureafter>
+          <warnafter>0</warnafter>
+        </SlaItem>
+      </SlaItems>
+    </Sla>
+  </Slas>
+  <Dashboards />
+  <InteractionCentricDashboards>
+    <InteractionCentricDashboard unmodified="1">
+      <LocalizedNames>
+        <LocalizedName description="Accounts Dashboard" languagecode="1031" />
+        <LocalizedName description="Accounts Dashboard" languagecode="1033" />
+        <LocalizedName description="Accounts Dashboard" languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Shows an overview of data related to accounts." languagecode="1031" />
+        <Description description="Shows an overview of data related to accounts." languagecode="1033" />
+        <Description description="Shows an overview of data related to accounts." languagecode="1036" />
+      </Descriptions>
+      <FormId>{15915835-b87c-49ec-9ffc-bfac3ac44ef1}</FormId>
+    </InteractionCentricDashboard>
+    <InteractionCentricDashboard unmodified="1">
+      <LocalizedNames>
+        <LocalizedName description="Contacts Dashboard" languagecode="1031" />
+        <LocalizedName description="Contacts Dashboard" languagecode="1033" />
+        <LocalizedName description="Contacts Dashboard" languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Shows an overview of data related to contacts." languagecode="1031" />
+        <Description description="Shows an overview of data related to contacts." languagecode="1033" />
+        <Description description="Shows an overview of data related to contacts." languagecode="1036" />
+      </Descriptions>
+      <FormId>{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}</FormId>
+    </InteractionCentricDashboard>
+    <InteractionCentricDashboard unmodified="1">
+      <LocalizedNames>
+        <LocalizedName description="Cases Dashboard" languagecode="1031" />
+        <LocalizedName description="Cases Dashboard" languagecode="1033" />
+        <LocalizedName description="Cases Dashboard" languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Shows the Case Entity dashboard." languagecode="1031" />
+        <Description description="Shows an overview of data related to cases." languagecode="1033" />
+        <Description description="Shows the Case Entity dashboard." languagecode="1036" />
+      </Descriptions>
+      <FormId>{eb3748b8-5f90-4050-a039-8b7d279ad8fe}</FormId>
+    </InteractionCentricDashboard>
+    <InteractionCentricDashboard unmodified="1">
+      <LocalizedNames>
+        <LocalizedName description="Social Profiles Dashboard" languagecode="1031" />
+        <LocalizedName description="Social Profiles Dashboard" languagecode="1033" />
+        <LocalizedName description="Social Profiles Dashboard" languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Shows an overview of data related to social profiles." languagecode="1031" />
+        <Description description="Shows an overview of data related to social profiles." languagecode="1033" />
+        <Description description="Shows an overview of data related to social profiles." languagecode="1036" />
+      </Descriptions>
+      <FormId>{88599263-c11e-4c33-bf9d-a46fcee7595b}</FormId>
+    </InteractionCentricDashboard>
+  </InteractionCentricDashboards>
+  <WebResources />
+  <SolutionPluginAssemblies />
+  <SdkMessageProcessingSteps />
+  <Languages>
+    <Language>1033</Language>
+    <Language>1036</Language>
+    <Language>1031</Language>
+  </Languages>
+</ImportExportXml>

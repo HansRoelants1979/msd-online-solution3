@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>112</returnedtypecode>
+  <savedqueryid>{00000000-0000-0000-00aa-000010001028}</savedqueryid>
+  <queryapi></queryapi>
+  <layoutxml>
+    <grid name="resultset" object="112" jump="title" select="1" icon="1" preview="1">
+      <row id="incidentid" name="result">
+        <cell name="ticketnumber" width="150" />
+        <cell name="resolveby" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        <cell name="customerid" width="200" imageproviderwebresource="$webresource:" imageproviderfunctionname="" />
+        <cell name="a_cdf05794a0ec49a3b2548ed7aa26cdd5.tc_language" width="125" imageproviderwebresource="$webresource:" imageproviderfunctionname="" disableSorting="1" />
+        <cell name="incidentstagecode" width="125" imageproviderwebresource="$webresource:" imageproviderfunctionname="" />
+        <cell name="caseorigincode" width="100" />
+        <cell name="tc_casetypeid" width="100" />
+        <cell name="tc_producttype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        <cell name="statecode" width="100" />
+        <cell name="statuscode" width="100" />
+        <cell name="followupby" width="100" />
+        <cell name="tc_latestactivitydate" width="150" imageproviderwebresource="$webresource:" imageproviderfunctionname="" />
+        <cell name="createdon" width="150" />
+        <cell name="ownerid" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" output-format="xml-platform" mapping="logical">
+      <entity name="incident">
+        <attribute name="ticketnumber" />
+        <attribute name="customerid" />
+        <attribute name="createdon" />
+        <order attribute="tc_latestactivitydate" descending="false" />
+        <order attribute="createdon" descending="false" />
+        <filter>
+          <condition attribute="ownerid" operator="eq-userid" />
+          <condition value="0" attribute="statecode" operator="eq" />
+        </filter>
+        <attribute name="tc_latestactivitydate" />
+        <attribute name="statecode" />
+        <attribute name="statuscode" />
+        <attribute name="resolveby" />
+        <attribute name="ownerid" />
+        <attribute name="caseorigincode" />
+        <attribute name="followupby" />
+        <attribute name="incidentstagecode" />
+        <attribute name="tc_casetypeid" />
+        <link-entity name="contact" alias="a_cdf05794a0ec49a3b2548ed7aa26cdd5" from="contactid" to="customerid" link-type="outer" visible="false">
+          <attribute name="tc_language" />
+        </link-entity>
+        <attribute name="tc_producttype" />
+        <attribute name="incidentid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>6.0.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Meine aktiven Anfragen" languagecode="1031" />
+    <LocalizedName description="My Active Cases" languagecode="1033" />
+    <LocalizedName description="Mes incidents actifs" languagecode="1036" />
+  </LocalizedNames>
+</savedquery>

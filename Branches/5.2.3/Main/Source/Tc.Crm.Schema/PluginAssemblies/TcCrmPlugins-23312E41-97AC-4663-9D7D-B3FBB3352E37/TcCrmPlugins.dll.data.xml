@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Tc.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d1841d22f62ace3" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/TcCrmPlugins-23312E41-97AC-4663-9D7D-B3FBB3352E37/TcCrmPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Tc.Crm.Plugins.CacheRequest.PostCreateCacheRequestAsync, Tc.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d1841d22f62ace3" Name="Tc.Crm.Plugins.CacheRequest.PostCreateCacheRequestAsync">
+      <FriendlyName>a0f543f0-3869-49b4-8236-6508de54d706</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Tc.Crm.Plugins.Case.PostCaseCreationUpdateRegardingOfSurvey, Tc.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d1841d22f62ace3" Name="Tc.Crm.Plugins.Case.PostCaseCreationUpdateRegardingOfSurvey">
+      <FriendlyName>6046ded5-6562-4011-ba1d-d541cadbb085</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Tc.Crm.Plugins.CreateSharePointDocumentLocation, Tc.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d1841d22f62ace3" Name="Tc.Crm.Plugins.CreateSharePointDocumentLocation">
+      <FriendlyName>5fd5c7ac-d10f-46a1-bf09-9d3266e310f1</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Tc.Crm.Plugins.Email.PreoperationUpdateEmailBody, Tc.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d1841d22f62ace3" Name="Tc.Crm.Plugins.Email.PreoperationUpdateEmailBody">
+      <FriendlyName>409bc13b-cc43-4566-8d81-7987e442889b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Tc.Crm.Plugins.Hotel.PostRelatingHotelToUser, Tc.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d1841d22f62ace3" Name="Tc.Crm.Plugins.Hotel.PostRelatingHotelToUser">
+      <FriendlyName>7cc5d871-8317-4abb-a37d-0d2d20ff63f3</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Tc.Crm.Plugins.PluginEntryPoint, Tc.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d1841d22f62ace3" Name="Tc.Crm.Plugins.PluginEntryPoint">
+      <FriendlyName>c70c1975-ac84-42d8-b793-600fc8353a36</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Tc.Crm.Plugins.PreCaseLine, Tc.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d1841d22f62ace3" Name="Tc.Crm.Plugins.PreCaseLine">
+      <FriendlyName>07f29584-f546-4361-bb62-723b78e278ee</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>
