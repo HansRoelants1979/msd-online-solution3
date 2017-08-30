@@ -24,15 +24,25 @@ namespace Tc.Crm.CustomWorkflowSteps.GetUsersStore
             {
                 var getUserStoreService = new GetUserStoreService();
                 trace.Trace("getting store by user");
-                var store = getUserStoreService.GetStoreByUser(User.Get<EntityReference>(executionContext),
-                    service, trace);
-                if (store != null)
+                var login = 
+                    getUserStoreService.GetExternalLogin(User.Get<EntityReference>(executionContext), service,
+                    trace);
+                if (login != null)
                 {
-                    executionContext.SetValue(Store, store);
+                    executionContext.SetValue(Login, login.ToEntityReference());
+                    var store = login.GetAttributeValue<EntityReference>("tc_budgetcentreid");
+                    if (store != null)
+                    {
+                        executionContext.SetValue(Store, store);
+                    }
+                    else
+                    {
+                        trace.Trace("store is null");
+                    }
                 }
                 else
                 {
-                    trace.Trace("store is null");
+                    trace.Trace("login is null");
                 }
             }
             catch (FaultException<OrganizationServiceFault> ex)
@@ -48,6 +58,8 @@ namespace Tc.Crm.CustomWorkflowSteps.GetUsersStore
                 throw new InvalidPluginExecutionException(ex.ToString());
             }
         }
+
+
         [Input("User")]
         [ReferenceTarget("systemuser")]
         public InArgument<EntityReference> User { get; set; }
@@ -55,5 +67,9 @@ namespace Tc.Crm.CustomWorkflowSteps.GetUsersStore
         [Output("Store")]
         [ReferenceTarget("tc_store")]
         public OutArgument<EntityReference> Store { get; set; }
+
+        [Output("Login")]
+        [ReferenceTarget("tc_externallogin")]
+        public OutArgument<EntityReference> Login { get; set; }
     }
 }
