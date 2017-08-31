@@ -63,6 +63,7 @@ namespace Tc.Crm.UnitTests.CustomWorkFlowSteps.GetUsersStore.Service
             };
             var store = _fakedContext.ExecuteCodeActivity<GetUsersStoreActivity>(inputs);
             Assert.AreEqual(((EntityReference)store["Store"]).Id, _storeId);
+            Assert.AreEqual(((EntityReference)store["Login"]).Id, _externalLoginId);
         }
 
         [TestMethod]

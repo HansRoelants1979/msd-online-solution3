@@ -23,7 +23,6 @@ namespace Tc.Crm.CustomWorkflowSteps.GetUsersStore
             try
             {
                 var getUserStoreService = new GetUserStoreService();
-                trace.Trace("getting store by user");
                 var login = 
                     getUserStoreService.GetExternalLogin(User.Get<EntityReference>(executionContext), service,
                     trace);

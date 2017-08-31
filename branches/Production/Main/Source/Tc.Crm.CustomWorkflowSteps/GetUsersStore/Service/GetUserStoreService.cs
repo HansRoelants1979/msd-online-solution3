@@ -22,7 +22,7 @@ namespace Tc.Crm.CustomWorkflowSteps.GetUsersStore.Service
             };
             ownerCondition.Values.Add(user.Id);
             query.Criteria.AddCondition(ownerCondition);
-            trace.Trace("call retrievemultiple on stores");
+            trace.Trace("call retrievemultiple on extrernal logins");
             var entityCollection = service.RetrieveMultiple(query);
             return entityCollection.Entities.FirstOrDefault();
         }
